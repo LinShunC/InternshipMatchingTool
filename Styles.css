@@ -1,0 +1,364 @@
+  /* Remove the navbar's default margin-bottom and rounded borders */ 
+   
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+body{
+    
+    font-size: 14px;
+}
+.Image_btn{
+    background-color: transparent;
+    border: none;
+    
+    align-content: center;
+    vertical-align: middle;
+}
+
+/*
+trying to change border color from a row, when btn is hover
+*/
+#infoBtn:hover > .info-row {
+        border-color: orange;
+    }
+
+    td:focus::after,
+    th:focus::after{
+        border-color: orange;
+    }
+    td:focus::after,
+    th:focus::after{
+        border-color: #E6E7E8;
+    }
+
+
+/*
+    .footer-communication{
+        position: relative;
+        margin-top: 10px;
+        
+    }
+    */
+
+    h6{
+        margin-top:10px;
+    }
+
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+.footer12{
+    margin-top: 10px;
+}
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+.headerTxt{
+    color: white;
+    margin-top: 0px;
+    
+}
+
+
+.h4txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin-top: 2%;
+    padding: 3px;
+}
+.svgfilter{
+    max-height: 35px;
+}
+.svgpos{
+padding-bottom: 10px;
+max-height: 45px;
+    align-content: center;
+}
+.navbar-header{
+    width: 17%;
+}
+.svg12{
+  fill:pink;
+}
+
+
+.navicolor{
+    background-color: #000000;
+    height: 100px;
+}
+
+
+.sv12{
+  fill: #94d31b;
+}
+.ul1{
+    list-style-type: none;
+    background-color: grey;
+    width: 100%;
+}
+
+.page-link-text{
+    padding-top: 5px;
+    margin-bottom:-10px;
+}
+/*header
+*/
+.headingTxt .col-sm-4{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    /*
+    font-size: 10%;    
+    margin: 10px;
+    padding-top: 5px;
+    */
+}
+
+.list{
+    display: inline;
+  list-style-type: none;
+  
+}
+.list1{
+    display: inline-block;
+}
+.li1{
+    width: 10%;
+    display: inline;
+    background-color: pink;
+}
+.img12{
+    width:20%;
+    height: 40px;
+   background-color: grey;
+}
+/*logo AIT
+*/
+.img13{
+    width: 100%;
+    max-height: 60px;
+    margin-top:10px;
+}
+.img14{
+    width: 20%;
+    max-height: 20px;
+    }
+
+  
+
+
+
+
+
+.active12{
+    background-color:#00a9b0;
+    
+}
+.ac{
+    color: #ffffff;
+}
+.navbar1{
+    background-color: #000000;
+    
+    color: white;
+    font-size: 12px;
+     
+    height: 100px;;
+}
+
+.li12{
+   width: 100%;
+    margin: auto;
+    text-align: center;
+   
+}
+.li12:hover{
+ background-color: #003438;
+  margin: auto;
+    width: 100%;
+    height: 100px;
+    padding-top: 1%;
+    padding-bottom: 0px;
+}
+.li18{
+    
+    width: 100%;
+}
+
+.li16{
+   background-color: #00A9B0;
+    width: 20%;
+}
+
+.t1{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.t2{
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.well1{
+    min-height:18px;
+    padding:5px;
+    margin-bottom:20px;
+    text-align:left;
+    background-color:orange;
+    border-radius:10px;
+    color: white;
+}
+
+.well2{
+    min-height:18px;
+    padding:5px;
+    margin-bottom:20px;
+    text-align:left;
+    background-color:white;
+    border-radius:10px;
+    color: grey;
+}
+.colhead{
+    text-align: center;
+    color: #848688;
+    font-weight: normal;
+  
+}
+#myInput, #myInput1, #mySelect1, #mySelect{
+    border-style: solid;
+    border-color: #BDBFC1;
+    border-width: 2px;
+    padding-left: 5px;
+    
+}
+
+.colhead1, .colhead2{
+    text-align: center;
+    border-style: solid;
+    border-color: #E6E7E8;
+    border-width: 5px;
+}
+
+#username, #t2, #t3, .select_new_add{
+    text-align: center;
+    width:100%;
+    border:0;
+}
+#t3_notes{
+    text-align: left;
+    width:100%;
+    border:0;
+    padding: 5px;
+    height: 100px;
+}
+
+ tr:nth-child(even) .colhead1{
+    background-color: white;
+}
+ tr:nth-child(odd) .colhead1{
+    background-color: #f2f2f2;
+}
+
+.well2:hover{
+    background-color:grey;
+    color:white;
+}
+.rowhead{
+    
+    
+}
+.t1:hover{
+    color: white;
+}
+.content{
+    background-color: #e8e9e9;
+    margin-top: 10px;
+}
+
+.sidenav{
+    background-color: white;
+}
+
+.well{min-height:20px; 
+    padding:5px;
+    margin-bottom:20px; 
+    text-align:left;
+    background-color:transparent;}
+
+.well:hover{
+    background-color: orange;
+    color: pink;
+    border:1px solid #e3e3e3;
+    border-radius:10px;
+}
+.text{
+    color: grey;
+  
+}
+.text:hover{
+    color: white;
+    text-decoration: none;
+}
+h4{
+    padding-top:3px;
+}
+
+
+.jumbotron{
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    color:white;
+    background-color:#02C8CF;
+    border-radius:0;
+}
+.jumbotron .h1,.jumbotron h1{
+    color:inherit
+}
+.jumbotron p{
+    margin-bottom:2px;
+    font-size:15px;
+    font-weight:200
+}
+.jumbotron>hr{
+    border-top-color:#d5d5d5
+}
+.container .jumbotron,.container-fluid .jumbotron{
+    padding-right:0px;
+    padding-left:0px;
+    
+}
+.jumbotron .container{
+        max-width:100%
+    }
+
+@media screen and (min-width:768px){
+    .jumbotron{
+        padding-top:0px;
+        padding-bottom:0px
+    }
+    /*
+    .container
+    .jumbotron,
+    .container-fluid
+    .jumbotron{
+        padding-right:60px;
+        padding-left:60px}
+        .jumbotron .h1,.jumbotron h1{
+            font-size:63px
+        }*/}

@@ -1,0 +1,9 @@
+ <form method="post" action="plasticBags.php?action=add&code="<?php echo $row["company_name"];?>"">
+	
+                         <input type= "hidden" name="quant" class="form-control" value=1>
+              <input type= "hidden" name="name_hid" value="<?php echo $row["company_name"];?> "/>
+          <input type= "hidden" name="price_hid" value="<?php echo $row["company_name"];?> "/>    
+       
+              <input type="submit"name="add_W" value="Add to wish list" class="btn btn-success" />
+		
+		</form>
