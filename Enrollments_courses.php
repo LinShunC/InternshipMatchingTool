@@ -72,7 +72,7 @@ $result = $conn->query($sql);
   </header>
 <div class="container-fluid text-center"> 
      <section id="about" ></section>
-  <div class="row content">
+  <div class="row">
        <div class="col-sm-2 sidenav">
       <a class="text" href="Enrollments.php">
         <div class="well2" >
